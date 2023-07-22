@@ -14,17 +14,6 @@
     --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
-
-.test {
-    display: flex;
-}
-
 .text-gradient {
     background: radial-gradient(
             64.18% 64.18% at 71.16% 35.69%,
@@ -121,6 +110,10 @@
 
 .feedback-container .feedback-card:last-child {
     margin-right: 0;
+}
+
+.link-hover {
+    @apply hover:text-[#33bbcf] ease-in duration-300;
 }
 
 .feedback-card {
